@@ -34,12 +34,12 @@
 # **Installation**
 > tmux installation
 ```bash
-xclip               # vim, tmux. linux clipboard를 연결
+xclip, xsel         # vim, tmux, linux clipboard를 연결
 powerline           # tmux powerline plugins
 fonts-powerline     # font for powerline
 ```
 ```bash
-sudo apt install tmux xclip
+sudo apt install tmux xclip xsel
 ```
 ```bash
 sudo apt install powerline fonts-powerline
