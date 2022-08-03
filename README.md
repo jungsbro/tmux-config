@@ -32,8 +32,22 @@
 
 
 # **Installation**
-> Installation
+> tmux installation
+```bash
+xclip               # vim, tmux. linux clipboard를 연결
+powerline           # tmux powerline plugins
+fonts-powerline     # font for powerline
+```
+```bash
+sudo apt install tmux xclip
+```
+```bash
+sudo apt install powerline fonts-powerline
+```
+<br>
+
+> copying .tmux.conf
 1. *.tmux/* 를 ~에 복사
 2. *.tmux.conf* 를 ~에 복사
 3. *tmux* 실행
-<br><br>
+<br>
