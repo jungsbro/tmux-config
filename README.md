@@ -18,10 +18,10 @@
 # ==============================================================================
 .tmux.conf                      "tmux config for ubuntu and debian"
                                 # with plugins
-# ==============================================================================
+# ------------------------------------------------------------------------------
 .tmux_ct7.conf                  "tmux config for CentOS7"
                                 # without pluigns (simple)
-# ==============================================================================
+# ------------------------------------------------------------------------------
 .tmux_msys.conf                 "tmux config for msys2"
                                 # without pluigns (simple)
 # ==============================================================================
@@ -32,12 +32,14 @@
 
 
 # **Installation**
-> tmux installation
+1. Install tmux
 ```bash
+# ==============================================================================
 xclip, xsel             # vim, tmux, linux clipboard를 연결
 powerline               # powerline plugins
 python3-powerline       # python3-powerline plugins
 fonts-powerline         # font for powerline
+# ==============================================================================
 ```
 
 ```bash
@@ -49,8 +51,25 @@ sudo apt install powerline fonts-powerline python3-powerline
 ```
 <br>
 
-> copying .tmux.conf
-1. *.tmux/* 를 ~에 복사
-2. *.tmux.conf* 를 ~에 복사
-3. *tmux* 실행
+
+2. Clone tmux-config
+```bash
+mkdir ~/github/
+```
+
+```bash
+git clone https://github.com/jungsbro/tmux-config.git ~/github/tmux-config
+```
 <br>
+
+
+3. Copy tmux-config to home
+```bash
+cp -rf ~/github/tmux-config/{.tmux/,.tmux.conf} ~
+```
+```# plugin설치후, 글자가 깨지면 powerline지원하는 Font(D2Coding) 설치```
+<br>
+
+
+---
+<br><br>
