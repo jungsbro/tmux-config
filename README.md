@@ -1,3 +1,7 @@
+# **tmux-config**
+<br><br>
+
+
 # **FolderTree**
 ```python
 # ==============================================================================
@@ -43,20 +47,17 @@ fonts-powerline         # font for powerline
 ```
 
 ```bash
-sudo apt install tmux xclip xsel
+sudo apt update;
+sudo apt install -y tmux xclip xsel;
 ```
 
 ```bash
-sudo apt install powerline fonts-powerline python3-powerline
+sudo apt install -y powerline fonts-powerline python3-powerline;
 ```
 <br>
 
 
 2. Clone tmux-config
-```bash
-mkdir ~/github/
-```
-
 ```bash
 git clone https://github.com/jungsbro/tmux-config.git ~/github/tmux-config
 ```
